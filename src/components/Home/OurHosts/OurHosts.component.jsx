@@ -8,7 +8,7 @@ import BG from '../../../assets/bg.png';
 const OurHosts = () => {
 	return (
 		<div
-			className='w-full bg-repeat bg-contain p-20 pt-0 flex items-center justify-center flex-col'
+			className='w-full bg-repeat bg-contain px-32 py-10 pt-0 flex items-center justify-center flex-col'
 			style={{
 				backgroundImage: `url(${BG})`,
 				backgroundSize: '40%',

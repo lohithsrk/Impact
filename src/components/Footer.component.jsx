@@ -4,9 +4,9 @@ import LOGO from '../assets/logo.png';
 const Footer = () => {
 	return (
 		<footer class='p-4 shadow md:px-6 md:py-8 bg-[#1f1f1f]'>
-			<div class='sm:flex sm:items-center sm:justify-between px-20'>
+			<div class='sm:flex sm:items-center sm:justify-between px-32'>
 				<a href='https://flowbite.com/' class='flex items-center mb-4 sm:mb-0'>
-					<img src={LOGO} class='w-24 mr-3' alt='Flowbite Logo' />
+					<img src={LOGO} class='w-24' alt='Flowbite Logo' />
 				</a>
 				<ul class='flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400'>
 					<li>

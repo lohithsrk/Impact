@@ -6,6 +6,7 @@ import Navbar from './components/Navbar.component';
 import Footer from './components/Footer.component';
 import Testimonials from './components/Home/Testimonials.components';
 import OurHosts from './components/Home/OurHosts/OurHosts.component';
+import Reels from './components/Home/Reels.component';
 
 const App = () => {
 	return (
@@ -25,7 +26,9 @@ const App = () => {
 				className='w-full h-screen object-cover'
 				loop
 			></video>
-			<div className='w-full h-min bg-[#f2b300] relative text-white px-20 py-10 text-justify'>
+			<Reels title='PAST EVENTS' direction='left' />
+			<Reels title='UPCOMING EVENTS' direction='right' />
+			<div className='w-full h-min bg-[#f2b300] relative text-white px-32 py-10 text-justify mt-20'>
 				<h1 className='text-2xl font-extrabold mb-1'>INTRODUCTION</h1>
 				<p className='lett'>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
