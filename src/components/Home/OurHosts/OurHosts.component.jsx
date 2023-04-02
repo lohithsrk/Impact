@@ -29,7 +29,7 @@ const OurHosts = () => {
 				<SwiperSlide>
 					<div className='flex'>
 						<img
-							src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+							src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 							alt=''
 						/>
 						<div className='bg-[#f2b300] text-white text-left p-5'>
@@ -46,7 +46,7 @@ const OurHosts = () => {
 				<SwiperSlide>
 					<div className='flex'>
 						<img
-							src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+							src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 							alt=''
 						/>
 						<div className='bg-[#f2b300] text-white text-left p-5'>
@@ -63,7 +63,7 @@ const OurHosts = () => {
 				<SwiperSlide>
 					<div className='flex'>
 						<img
-							src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+							src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 							alt=''
 						/>
 						<div className='bg-[#f2b300] text-white text-left p-5'>
@@ -80,7 +80,7 @@ const OurHosts = () => {
 				<SwiperSlide>
 					<div className='flex'>
 						<img
-							src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+							src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 							alt=''
 						/>
 						<div className='bg-[#f2b300] text-white text-left p-5'>

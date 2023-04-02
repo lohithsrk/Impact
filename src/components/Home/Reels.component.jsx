@@ -10,7 +10,7 @@ const Reels = ({ title, direction }) => {
 				{title}
 			</h1>
 			<div className='bg-[#f2b300] mb-3 p-2 flex flex-col gap-3'>
-				<Marquee speed={18} gradient={false} direction={direction}>
+				<Marquee speed={25} gradient={false} direction={direction}>
 					<div className='flex flex-row '>
 						{Array(55)
 							.fill(0)
@@ -26,21 +26,21 @@ const Reels = ({ title, direction }) => {
 							))}
 					</div>
 				</Marquee>
-				<Marquee speed={18} gradient={false} direction={direction}>
+				<Marquee speed={25} gradient={false} direction={direction}>
 					<div className='flex '>
 						{Array(55)
 							.fill(0)
 
 							.map((a) => (
 								<img
-									src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+									src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 									className='w-56 h-48 object-cover rounded-md mr-2'
 									alt='...'
 								/>
 							))}
 					</div>
 				</Marquee>
-				<Marquee speed={18} gradient={false} direction={direction}>
+				<Marquee speed={25} gradient={false} direction={direction}>
 					<div className='flex flex-row'>
 						{Array(55)
 							.fill(0)

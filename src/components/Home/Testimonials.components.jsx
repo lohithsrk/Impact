@@ -20,35 +20,35 @@ const Testimonials = () => {
 						data-carousel-item='active'
 					>
 						<img
-							src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+							src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 							className='absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
 							alt='...'
 						/>
 					</div>
 					<div className='hidden duration-700 ease-in-out' data-carousel-item>
 						<img
-							src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+							src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 							className='absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
 							alt='...'
 						/>
 					</div>
 					<div className='hidden duration-700 ease-in-out' data-carousel-item>
 						<img
-							src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+							src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 							className='absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
 							alt='...'
 						/>
 					</div>
 					<div className='hidden duration-700 ease-in-out' data-carousel-item>
 						<img
-							src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+							src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 							className='absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
 							alt='...'
 						/>
 					</div>
 					<div className='hidden duration-700 ease-in-out' data-carousel-item>
 						<img
-							src='https://marketplace.canva.com/EAE8WYkvGFk/1/0/1600w/canva-blue-white-podcast-%28poster-%28landscape%29%29-GmR3rRqLssk.jpg'
+							src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 							className='absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
 							alt='...'
 						/>
