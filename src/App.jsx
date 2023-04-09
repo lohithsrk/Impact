@@ -5,12 +5,29 @@ import Home from './pages/Home.page';
 import Podcast from './pages/Podcast.page';
 import Interviews from './pages/Interviews.page';
 
+import BG from './assets/bg.png';
+
+
 const App = () => {
 	return (
 		<Routes>
 			<Route path='/' element={<Home />} />
 			<Route path='/podcast' element={<Podcast />} />
 			<Route path='/interviews' element={<Interviews />} />
+			<Route
+				path='*'
+				element={
+					<div
+					className='w-full h-screen bg-repeat bg-contain flex items-center justify-center'
+			style={{
+				backgroundImage: `url(${BG})`,
+				backgroundSize: '40%',
+				backgroundAttachment: 'fixed'
+			}}>
+						<div className='text-white uppercase'>404 not found</div>
+					</div>
+				}
+			/>
 		</Routes>
 	);
 };

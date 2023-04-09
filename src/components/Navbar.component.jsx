@@ -11,7 +11,7 @@ const Navbar = () => {
 			</Link>
 			<ul className='flex gap-4'>
 				<li className='uppercase cursor-pointer'>
-					<Link to="/home">Home</Link>
+					<Link to="/">Home</Link>
 				</li>
 				<li className='uppercase cursor-pointer'>
 				<Link to="/podcast">Podcast</Link>
