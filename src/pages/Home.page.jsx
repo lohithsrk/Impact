@@ -26,34 +26,33 @@ const Home = () => {
 				className='w-full h-screen object-cover'
 				loop
 			></video>
-			<Reels title='PAST EVENTS' direction='left' />
-			<Reels title='UPCOMING EVENTS' direction='right' />
+			<Reels title='EVENTS' direction='left' />
+			{/* <Reels title='UPCOMING EVENTS' direction='right' /> */}
 			<div className='w-full h-min bg-[#f2b300] relative text-white px-32 py-10 text-justify mt-20'>
 				<h1 className='text-2xl font-extrabold mb-1'>INTRODUCTION</h1>
 				<p className='lett'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-					mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-					voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-					fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-					accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-					molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-					officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-					nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-					error repudiandae fuga? Ipsa laudantium molestias eos sapiente
-					officiis modi at sunt excepturi expedita sint? Sed quibusdam
-					recusandae alias error harum maxime adipisci amet laborum.
-					Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a
-					cumque velit quibusdam sed amet tempora. Sit laborum ab, eius fugit
-					doloribus tenetur fugiat, temporibus enim commodi iusto libero magni
-					deleniti quod quam consequuntur! Commodi minima excepturi repudiandae
-					velit hic maxime doloremque. Quaerat provident commodi consectetur
-					veniam similique ad earum omnis ipsum saepe, voluptas, hic voluptates
-					pariatur est explicabo fugiat, dolorum eligendi quam cupiditate
-					excepturi mollitia maiores labore suscipit quas? Nulla, placeat.
-					Voluptatem quaerat non architecto ab laudantium modi minima sunt esse
-					temporibus sint culpa, recusandae aliquam numquam totam ratione
-					voluptas quod exercitationem fuga. Possimus quis earum veniam quasi
-					aliquam eligendi, placeat qui corporis!{' '}
+					Hello and welcome to our podcast! We're thrilled to have you join us
+					for this journey.
+					<br />
+					<br />
+					Our podcast is all about getting impacted. We believe that we can
+					create an impact, and we want to share our knowledge, insights, and
+					experiences with you.
+					<br />
+					<br />
+					In each episode, we'll dive deep into a specific aspect of our theme
+					and explore it from different angles. We'll bring in experts,
+					professionals, and enthusiasts to share their perspectives and offer
+					valuable insights.
+					<br />
+					<br />
+					Whether you're a seasoned pro or just getting started, our podcast has
+					something for everyone. Our goal is to provide you with informative
+					and entertaining content that you can use to deepen your understanding
+					and appreciation of getting impacted together.
+					<br />
+					<br />
+					So sit back, relax , and enjoy the show.
 				</p>
 			</div>
 			<Testimonials />

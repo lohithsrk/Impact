@@ -60,91 +60,56 @@ const Interviews = () => {
 					</div>
 				))}
 			</div>
-            <Footer/>
+			<Footer />
 		</div>
 	);
 };
 
 const interviews = [
 	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
+		title:
+			'"YOU SHOULD DO WHAT INTERESTS YOU AND WHAT YOU ASPIRE TO DO."-Ashish Bhalla - Director-HR of HCLTech',
+		youtube: 'https://www.youtube.com/watch?v=RLKnrM1Tva4',
 		thumbnail:
 			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
 		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
+			'It is not often that we stumble upon an opportunity like this. An opportunity to get up-close with the HR of a leading technological giant in India. For this edition, as part of our expert interview, we interviewed Mr Ashish Bhalla – Director-HR of HCLTech. We asked him about the tech industry, the recruitment process, the recession and of course some burning questions that we had! Check out the full article to get insights from the versatile and well-balanced leader himself!'
 	},
 	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
+		title:
+			'Interview with Mr.Santhosh Muruganantham ,Co founder & MD at Kolapasi.',
+		youtube: 'https://www.youtube.com/watch?v=5huOjslriEg',
 		thumbnail:
 			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
 		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
+			"Discover the behind-the-scenes secrets of India's pioneering chef-less restaurant with an exclusive interview featuring the Managing Director, Mr. Santhosh Murganantham. Gain valuable insights and unique perspectives as he shares his experiences and expertise in creating and managing this innovative culinary concept."
 	},
 	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
+		title:
+			"Uncovering the Expertise of NASA's Former Chief Knowledge Officer : Mr. Edward Rogers",
+		youtube: 'https://www.youtube.com/watch?v=2bj7mzltpz4',
 		thumbnail:
 			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
 		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
+			'Experience an insightful interview with a retired Chief Knowledge Officer from NASA, widely recognized as an expert in startups and business management. With a distinguished career, this professional is also a visiting faculty member at the Indian School of Business and has made a significant contribution to humanitarian work in war-torn Southern Lebanon.'
 	},
 	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
+		title:
+			'Inspiring Journey of Naturals Spa and Salon CEO | Empowering Women Entrepreneurs',
+		youtube: 'https://www.youtube.com/watch?v=vsXx1lejB5I',
 		thumbnail:
 			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
 		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
+			"Join us in this exclusive interview with the remarkable CEO and Co-founder of Naturals Spa and Salon, a visionary with 22 years of pathbreaking experience. With an impressive network of 700 stores across 20 states, this industry leader shares their inspiring story of bouncing back from a debt of 5 crores to building a thriving 270 crore turnover salon chain. Discover the untold secrets behind their immense hard work and dedication, as they shed light on their mission to empower women through entrepreneurship. Get ready to be inspired and learn about their ambitious plans to expand their salon chain to 3000, providing opportunities for over 1000 women entrepreneurs. Don't miss this opportunity to gain insights from a true icon in the beauty industry!"
 	},
 	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
+		title:
+			'Part 2 : Inspiring Journey of Naturals Spa and Salon CEO | Empowering Women Entrepreneurs',
+		youtube: 'https://www.youtube.com/watch?v=ZaUaZOIXWdU',
 		thumbnail:
 			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
 		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
-	},
-	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
-		thumbnail:
-			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
-		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
-	},
-	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
-		thumbnail:
-			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
-		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
-	},
-	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
-		thumbnail:
-			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
-		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
-	},
-	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
-		thumbnail:
-			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
-		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
-	},
-	{
-		title: 'interview 1',
-		youtube: 'https://google.com',
-		thumbnail:
-			'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg',
-		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe error reiciendis, facere quam fuga veritatis dolore tenetur incidunt sint eos voluptatem minus cum rerum molestiae ipsum! Hic ratione perspiciatis sapiente.'
+			"Join us in this exclusive interview with the remarkable CEO and Co-founder of Naturals Spa and Salon, a visionary with 22 years of pathbreaking experience. With an impressive network of 700 stores across 20 states, this industry leader shares their inspiring story of bouncing back from a debt of 5 crores to building a thriving 270 crore turnover salon chain. Discover the untold secrets behind their immense hard work and dedication, as they shed light on their mission to empower women through entrepreneurship. Get ready to be inspired and learn about their ambitious plans to expand their salon chain to 3000, providing opportunities for over 1000 women entrepreneurs. Don't miss this opportunity to gain insights from a true icon in the beauty industry!"
 	}
 ];
 

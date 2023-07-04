@@ -2,6 +2,12 @@ import React from 'react';
 import Marquee from 'react-fast-marquee';
 
 import BG from '../../assets/bg.png';
+import impact_poster from '../../assets/events/impact_poster.jpg';
+import impact_poster_1 from '../../assets/events/impact_poster_1.jpg';
+import ashish from '../../assets/events/ashish.png';
+import ck from '../../assets/events/ck.png';
+import edward from '../../assets/events/edward.png';
+import santhosh from '../../assets/events/santhosh.png';
 
 const Reels = ({ title, direction }) => {
 	return (
@@ -28,16 +34,15 @@ const Reels = ({ title, direction }) => {
 				</Marquee>
 				<Marquee speed={25} gradient={false} direction={direction}>
 					<div className='flex '>
-						{Array(55)
-							.fill(0)
-
-							.map((a) => (
+						{[impact_poster, impact_poster_1, ashish, ck, santhosh, edward].map(
+							(a) => (
 								<img
-									src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
-									className='w-56 h-48 object-cover rounded-md mr-2'
+									src={a}
+									className='w-56 h-48 object-fill rounded-md mr-2'
 									alt='...'
 								/>
-							))}
+							)
+						)}
 					</div>
 				</Marquee>
 				<Marquee speed={25} gradient={false} direction={direction}>
