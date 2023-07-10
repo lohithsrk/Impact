@@ -12,7 +12,7 @@ import santhosh from '../../assets/events/santhosh.png';
 const Reels = ({ title, direction }) => {
 	return (
 		<>
-			<h1 className='text-2xl font-extrabold mb-1 text-white px-32 py-5'>
+			<h1 className='text-2xl font-extrabold mb-1 text-white px-20 md:px-48 py-5'>
 				{title}
 			</h1>
 			<div className='bg-[#f2b300] mb-3 p-2 flex flex-col gap-3'>

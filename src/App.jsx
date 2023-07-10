@@ -6,6 +6,7 @@ import Podcast from './pages/Podcast.page';
 import Interviews from './pages/Interviews.page';
 
 import BG from './assets/bg.png';
+import Internship from './pages/Internship.page';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
 			<Route path='/' element={<Home />} />
 			<Route path='/podcast' element={<Podcast />} />
 			<Route path='/interviews' element={<Interviews />} />
+			<Route path='/internship' element={<Internship />} />
 			<Route
 				path='*'
 				element={

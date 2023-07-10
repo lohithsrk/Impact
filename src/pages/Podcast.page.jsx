@@ -15,7 +15,7 @@ const Podcast = () => {
 			}}
 		>
 			<Navbar />
-			<div className='pt-28 px-36'>
+			<div className='pt-28 md:px-48 px-10'>
 				{podcasts.map((podcast, i) => (
 					<div className='mb-5'>
 						<div className='w-full flex bg-[#151515] p-2 rounded shadow-lg shadow-[#ffffff0f]'>

@@ -5,8 +5,9 @@ import BGVideo from '../assets/bg-video.mp4';
 import Navbar from '../components/Navbar.component';
 import Footer from '../components/Footer.component';
 import Testimonials from '../components/Home/Testimonials.components';
-import OurHosts from '../components/Home/OurHosts/OurHosts.component';
+// import OurHosts from '../components/Home/OurHosts/OurHosts.component';
 import Reels from '../components/Home/Reels.component';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 	return (
@@ -23,12 +24,12 @@ const Home = () => {
 				src={BGVideo}
 				autoPlay
 				muted
-				className='w-full h-screen object-cover'
+				className='w-full md:h-screen object-cover'
 				loop
 			></video>
 			<Reels title='EVENTS' direction='left' />
 			{/* <Reels title='UPCOMING EVENTS' direction='right' /> */}
-			<div className='w-full h-min bg-[#f2b300] relative text-white px-32 py-10 text-justify mt-20'>
+			<div className='w-full h-min bg-[#f2b300] relative text-white p-10 md:px-48 py-10 text-justify mt-10'>
 				<h1 className='text-2xl font-extrabold mb-1'>INTRODUCTION</h1>
 				<p className='lett'>
 					Hello and welcome to our podcast! We're thrilled to have you join us
@@ -56,7 +57,25 @@ const Home = () => {
 				</p>
 			</div>
 			<Testimonials />
-			<OurHosts />
+			<div className='w-full h-min  relative text-white p-10 md:px-48 py-10 text-justify mt-20'>
+				<h1 className='text-2xl font-extrabold mb-1'>INTERNSHIP</h1>
+				<p className='lett'>
+					Hello and welcome to our podcast! We're thrilled to have you join us
+					for this journey. Whether you're a seasoned pro or just getting
+					started, our podcast has something for everyone. Our goal is to
+					provide you with informative and entertaining content that you can use
+					to deepen your understanding and appreciation of getting impacted
+					together.
+				</p>
+				<br />
+				<Link
+					to='/internship'
+					className='bg-[#f2b300] font-bold p-3 rounded-lg '
+				>
+					Go to Internship
+				</Link>
+			</div>
+			{/* <OurHosts /> */}
 			<Footer />
 		</div>
 	);

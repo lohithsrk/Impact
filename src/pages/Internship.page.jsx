@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar.component';
 import BG from '../assets/bg.png';
 import Footer from '../components/Footer.component';
 
-const Interviews = () => {
+const Internship = () => {
 	return (
 		<div
 			className='w-full bg-repeat bg-contain min-h-screen'
@@ -16,7 +16,7 @@ const Interviews = () => {
 		>
 			<Navbar />
 			<div className='pt-28 md:px-48 px-10'>
-				{interviews.map((interview, i) => (
+				{internship.map((interview, i) => (
 					<div className='mb-5'>
 						<div className='w-full flex bg-[#151515] p-2 rounded shadow-lg shadow-[#ffffff0f]'>
 							<img
@@ -65,7 +65,7 @@ const Interviews = () => {
 	);
 };
 
-const interviews = [
+const internship = [
 	{
 		title:
 			'"YOU SHOULD DO WHAT INTERESTS YOU AND WHAT YOU ASPIRE TO DO."-Ashish Bhalla - Director-HR of HCLTech',
@@ -113,4 +113,4 @@ const interviews = [
 	}
 ];
 
-export default Interviews;
+export default Internship;

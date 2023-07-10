@@ -5,7 +5,7 @@ import BG from '../../assets/bg.png';
 const Testimonials = () => {
 	return (
 		<div
-			className='w-full bg-repeat bg-contain px-32 py-10'
+			className='w-full bg-repeat bg-contain p-10 md:px-48 py-10'
 			style={{
 				backgroundImage: `url(${BG})`,
 				backgroundSize: '40%',
