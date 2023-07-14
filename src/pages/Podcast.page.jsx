@@ -24,7 +24,7 @@ const Podcast = () => {
 								<img
 									src={podcast.thumbnail}
 									alt={podcast.title}
-									className='w-full md:w-36 md:h-36 rounded'
+									className='w-full md:w-auto md:h-36 rounded'
 								/>
 								<div className='p-2 pl-3'>
 									<h1 className='text-2xl font-bold text-[#f2b300] inline'>

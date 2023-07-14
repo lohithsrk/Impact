@@ -3,6 +3,9 @@ import React from 'react';
 import Navbar from '../components/Navbar.component';
 import BG from '../assets/bg.png';
 import CK from '../assets/interviews/ck.png';
+import ashish from '../assets/interviews/ashish.jpg';
+import edward_rogers from '../assets/interviews/edward_rogers.jpg';
+import kolapasi from '../assets/interviews/kolapasi.jpg';
 import Footer from '../components/Footer.component';
 
 const Interviews = () => {
@@ -24,7 +27,7 @@ const Interviews = () => {
 								<img
 									src={interview.thumbnail}
 									alt={interview.title}
-									className='w-full md:w-36 md:h-36 rounded'
+									className='w-full md:w-auto md:h-36 rounded'
 								/>
 								<div className='p-2 pl-3'>
 									<h1 className='text-2xl font-bold text-[#f2b300] inline'>
@@ -77,7 +80,7 @@ const interviews = [
 		title:
 			'"YOU SHOULD DO WHAT INTERESTS YOU AND WHAT YOU ASPIRE TO DO."-Ashish Bhalla - Director-HR of HCLTech',
 		youtube: 'https://www.youtube.com/watch?v=RLKnrM1Tva4',
-		thumbnail: CK,
+		thumbnail: ashish,
 		description:
 			'It is not often that we stumble upon an opportunity like this. An opportunity to get up-close with the HR of a leading technological giant in India. For this edition, as part of our expert interview, we interviewed Mr Ashish Bhalla – Director-HR of HCLTech. We asked him about the tech industry, the recruitment process, the recession and of course some burning questions that we had! Check out the full article to get insights from the versatile and well-balanced leader himself!'
 	},
@@ -85,7 +88,7 @@ const interviews = [
 		title:
 			'Interview with Mr.Santhosh Muruganantham ,Co founder & MD at Kolapasi.',
 		youtube: 'https://www.youtube.com/watch?v=5huOjslriEg',
-		thumbnail: CK,
+		thumbnail: kolapasi,
 		description:
 			"Discover the behind-the-scenes secrets of India's pioneering chef-less restaurant with an exclusive interview featuring the Managing Director, Mr. Santhosh Murganantham. Gain valuable insights and unique perspectives as he shares his experiences and expertise in creating and managing this innovative culinary concept."
 	},
@@ -93,7 +96,7 @@ const interviews = [
 		title:
 			"Uncovering the Expertise of NASA's Former Chief Knowledge Officer : Mr. Edward Rogers",
 		youtube: 'https://www.youtube.com/watch?v=2bj7mzltpz4',
-		thumbnail: CK,
+		thumbnail: edward_rogers,
 		description:
 			'Experience an insightful interview with a retired Chief Knowledge Officer from NASA, widely recognized as an expert in startups and business management. With a distinguished career, this professional is also a visiting faculty member at the Indian School of Business and has made a significant contribution to humanitarian work in war-torn Southern Lebanon.'
 	},

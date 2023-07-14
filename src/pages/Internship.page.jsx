@@ -23,7 +23,7 @@ const Internship = () => {
 								<img
 									src={interview.thumbnail}
 									alt={interview.title}
-									className='w-36 h-36 rounded'
+									className='w-full md:w-auto md:h-36 rounded'
 								/>
 								<div className='p-2 pl-3'>
 									<h1 className='text-2xl font-bold text-[#f2b300] inline'>
