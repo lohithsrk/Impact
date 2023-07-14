@@ -12,7 +12,7 @@ import santhosh from '../../assets/events/santhosh.png';
 const Reels = ({ title, direction }) => {
 	return (
 		<>
-			<h1 className='text-2xl font-extrabold mb-1 text-white px-20 md:px-48 py-5'>
+			<h1 className='text-2xl font-extrabold md:mb-1 text-white px-10 md:px-48 py-3 md:py-5'>
 				{title}
 			</h1>
 			<div className='bg-[#f2b300] mb-3 p-2 flex flex-col gap-3'>
@@ -22,7 +22,7 @@ const Reels = ({ title, direction }) => {
 							.fill(0)
 							.map((a) => (
 								<div
-									className='bg-repeat bg-contain w-5 h-5 rounded-md mr-2'
+									className='bg-repeat bg-contain w-4 h-4 md:w-5 md:h-5 rounded-md mr-2'
 									style={{
 										backgroundImage: `url(${BG})`,
 										backgroundSize: '40%',
@@ -38,7 +38,7 @@ const Reels = ({ title, direction }) => {
 							(a) => (
 								<img
 									src={a}
-									className='w-56 h-48 object-fill rounded-md mr-2'
+									className='w-48 h-40 md:w-56 md:h-48 object-fill rounded-md mr-2'
 									alt='...'
 								/>
 							)
@@ -51,7 +51,7 @@ const Reels = ({ title, direction }) => {
 							.fill(0)
 							.map((a) => (
 								<div
-									className='bg-repeat bg-contain w-5 h-5 rounded-md mr-2'
+									className='bg-repeat bg-contain w-4 h-4 md:w-5 md:h- rounded-md mr-2'
 									style={{
 										backgroundImage: `url(${BG})`,
 										backgroundSize: '40%',
